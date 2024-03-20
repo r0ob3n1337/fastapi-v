@@ -1,5 +1,5 @@
 from fastapi import FastAPI, Query, Depends
-from fastapi.responses import FileResponse, JSONResponse
+from fastapi.responses import JSONResponse
 from typing import Optional
 from datetime import date
 from pydantic import BaseModel
